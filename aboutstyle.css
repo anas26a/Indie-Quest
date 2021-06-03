@@ -1,0 +1,84 @@
+/* -------------------------------------------Generel style------------------------- */
+*{
+	font-family: Montserrat;
+
+	
+	background-size: 100%;
+  
+	
+}
+
+/* ---------------------------------------Navigationbar style-------------------------- */
+.navbar{
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  padding-left: 250px;
+  
+}
+
+.navbar a.green {
+  background-color: green;
+  color: red;
+}
+
+.navbar a.red{
+  background-color:red;
+  color: green;
+}
+
+.loggan{
+  width: 63px;
+  height: 64px;
+}
+
+/* -----------------------------------Style för första sidan------------------ */
+
+.bodyabout{
+  
+background-image: url(imgwell.png);
+font-size: 20px;
+color: black;
+margin: auto;
+}
+
+
+.about {
+
+display: flex;
+flex-direction: row;
+}
+
+.textabout1{
+
+font-size: 25px;
+color: red;
+background: rgba(2, 151, 15, 0.3);
+
+
+}
+
+.textabout2{
+
+  padding-left: 200px;
+  color: red;
+  font-size: 25px;
+  background-color: orange;
+  background: rgba(2, 151, 15, 0.3);
+  
+}
+
+
+
+
+
+
+
+
